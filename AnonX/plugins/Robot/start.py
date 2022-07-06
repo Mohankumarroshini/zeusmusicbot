@@ -39,7 +39,7 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgIAAxkBAAI0TmLAWPuGhJPMS7L1BxstdcpJLIp8AALZGAACdRZQSZRAAdVKSX-nKQQ")
+            await message.reply_sticker("CAACAgIAAxkBAAI0TmLFx4ce6L1JFaHcXh0iqhDkWJEzAALZGAACdRZQSZRAAdVKSX-nKQQ")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"], reply_markup=keyboard
