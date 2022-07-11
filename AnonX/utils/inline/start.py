@@ -48,7 +48,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
         ],
         [
-            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"{config.SUPPORY_CHANNEL}"),
+            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"{config.SUPPORT_CHANNEL}"),
+
             InlineKeyboardButton(
                 text="sᴜᴩᴩᴏʀᴛ", url=f"{config.SUPPORT_GROUP}"
             ),
